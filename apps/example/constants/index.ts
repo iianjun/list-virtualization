@@ -1,5 +1,9 @@
+export const NO_VIRTUALIZATION_ITEMS = Array.from(
+  { length: 10000 },
+  (_, index) => `Item ${index}`
+);
 export const FIXED_HEIGHT_ITEMS = Array.from(
-  { length: 1000 },
+  { length: 10000 },
   (_, index) => `Item ${index}`
 );
 export const DYNAMIC_HEIGHT_ITEMS = [
