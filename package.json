@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "list-virtualization",
   "private": true,
   "scripts": {
     "build": "turbo run build",
