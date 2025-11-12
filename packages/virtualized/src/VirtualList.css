@@ -1,14 +1,17 @@
-.fixed-height-virtual-container {
+.fixed-height-virtual-container,
+.dynamic-height-virtual-container {
   position: relative;
   overflow: auto;
   width: 100%;
 }
 
-.fixed-height-virtual-viewport {
+.fixed-height-virtual-viewport,
+.dynamic-height-virtual-viewport {
   position: relative;
   width: 100%;
 }
 
-.fixed-height-item {
+.fixed-height-item,
+.dynamic-height-item {
   position: absolute;
 }
