@@ -1,0 +1,14 @@
+.fixed-height-virtual-container {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+}
+
+.fixed-height-virtual-viewport {
+  position: relative;
+  width: 100%;
+}
+
+.fixed-height-item {
+  position: absolute;
+}
